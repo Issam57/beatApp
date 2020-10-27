@@ -12,19 +12,19 @@ document.addEventListener('keydown', (event) => {
 function playMusic(key) {
     switch(key) {
         case "a": 
-            var audio = new Audio('Clap1.wav');
+            var audio = new Audio('sons/Clap1.wav');
             audio.play();
             break;
         case "z": 
-            var audio = new Audio('Kick1.wav');
+            var audio = new Audio('sons/Kick1.wav');
             audio.play();
             break;
         case "e": 
-            var audio = new Audio('kick.mp3');
-            audio.play();
+            var audio = new Audio('sons/kick.mp3');
+            audio.play();ob
             break;
         case "r": 
-            var audio = new Audio('kick2.mp3');
+            var audio = new Audio('sons/kick2.mp3');
             audio.play();
             break;
         }
